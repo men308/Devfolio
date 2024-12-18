@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(5, 5, 5, 0.95);;
+    display: flex;
+    align-items: center;
+ }
+ 
+  .section1{
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/images01.jpg);
+     height:100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     
+  }
+ 
+  .section1 .fix,.anim{
+    text-align: center;
+    color: #FFFFFF;
+   position: relative;
+   top: 50%;
+   
+  }
+  .section1 .navbar-brand{
+     color: #FFFFFF;
+     font-size: 28px;
+     font-weight: 600;
+     line-height: 33.6px;
+  }
+  .section1 .nav-link{
+     color: #FFFFFF;
+  }
+  .anim h1 span{
+    position: relative;
+    top: 5%;
+  }
+  .anim{
+    font-size: 33px;
+     font-weight: 600;
+     line-height: 33.6px;
+  }
+ 
+ 
+  /* section2 */
+  body{
+    background-color: #f5f5f5ff;
+  }
+  .container .inner{
+    background-color: #ffffffff;
+   
+ 
+  }
+  .skill .progress{
+    background-color: #cde1f8;
+     margin: 0.5rem 0 1.2rem 0; 
+     border-radius: 0;
+     height: 0.7rem;
+  }
+  .list-unstyled li span{
+    font-weight: 700;
+    color: #000;
+  }
+  .about p span{
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+  }
+
+
+/* section3 */
+
+.fa-regular {
+    font-size: 45px;
+    
+}
+.items{
+    margin-left: 10px;
+}
+.circles{
+    width: 90px;
+    height: 90px;
+    border: solid 9px white;
+    border-radius: 50%;
+    transition-duration: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-heart{
+    font-size: 45px;
+}
+
+.iconss{
+    width: 90px;
+    height: 90px;
+    border: solid 7px blue;
+    border-radius: 50%;
+    transition-duration: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.iconss:hover{
+    border-color:rgb(145, 170, 218);
+    background-color: rgb(36, 86, 179);
+}
+.image2{
+    background-image: url(../images/images14.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.image3{
+    background-image: url(../images/images10.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.layer{
+    background-color: #0077ffa3;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    border: solid 7px rgb(254, 254, 254);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.small{
+    border-top: 2px solid rgb(104, 104, 104);
+    background-color: rgb(237, 245, 245);
+   
+}
+.portfolio-section{
+overflow: hidden;
+
+    img{
+        width: 100%;
+        transition-duration: 1s;
+        }
+        span{
+            color: rgb(65, 65, 222);
+        }
+        h2{
+            font-size: 18px;
+        }
+        img:hover{
+            transform: scale(1.2);
+        }
+}
+.content{
+    img{
+        width: 100%;
+    }
+}
+.modal-header{
+    border: none;
+    padding: 0;
+}
+.modal-content{
+    background-color: transparent;
+    border: none;
+}
+.btn-close{
+    --bs-btn-close-bg:none;
+    --bs-btn-close-opacity:1;
+}
+.circle-image{
+    color: white;
+}
+.input-last-section{
+    padding-left: 48px;
+   
+}
+.button-last-section{
+    background-color:rgb(33, 141, 196);
+    color: white;
+}
+.section2 p{
+    letter-spacing: 1.8px;
+}
+.fa-li{
+    color: rgb(30, 64, 137);
+}
+.fa-stack{
+    color: rgb(30, 64, 137); 
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .rectangle{
+        
+        width:95% ;
+        height: 5% ;
+    
+    }
+    .dark-rectangle{
+        display: block;
+        width:75% ;
+        height: 100%;
+        
+    } 
+    .portfolio-section{
+        h2 , p{
+        
+          padding-left: 30px;
+          margin-top: 10px;
+        }
+        
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .text-last-section{
+        text-align: center;
+    }
+    .row-last-section{
+        display: block;
+    }
+    
+}
+    
+    
+   
+
